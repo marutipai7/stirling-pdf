@@ -274,7 +274,7 @@ export default defineConfig(async ({ mode }) => {
         ],
       }),
       compressStaticCopyPlugin(),
-      prerenderOgPlugin(),
+     // prerenderOgPlugin(),
     ],
     resolve: {
       // Global alias so @shared resolves for ALL importers — including the
